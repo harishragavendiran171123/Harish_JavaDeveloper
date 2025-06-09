@@ -1,0 +1,23 @@
+body{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(247, 254, 252);
+}
+
+a:hover{
+    color: rgb(244, 238, 238);
+    box-shadow:rgb(119, 215, 215)
+
+}
+a:hover::after{
+    color: rgb(151, 187, 151);
+}
+a{
+    width: 22px; 
+    height:auto;
+    background-color: rgb(175, 243, 243);
+    padding: 5px;
+    text-align: center;
+    box-shadow: 2px 3px 8px lightgrey;
+    border-radius: 4px;
+}
